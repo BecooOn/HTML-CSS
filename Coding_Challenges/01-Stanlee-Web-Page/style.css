@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  border: 2px solid orange;
+  width: 90%;
+  /* height: 93vh; */
+  margin: 2.5rem 6rem;
+  padding: 2rem;
+  background-color: rgb(43, 39, 39);
+  border-radius: 3rem;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    background-color: lightblue;
+  }
+}
+
+.head {
+  font-family: "Lobster", sans-serif;
+  text-align: center;
+  font-size: 4rem;
+}
+
+h1.head span {
+  color: red;
+}
+
+.img {
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+.figure img {
+  margin-top: 2rem;
+  width: 17rem;
+  height: 13rem;
+  border-radius: 2rem;
+  box-shadow: 4px 5px 84px 63px #6d0107;
+}
+
+.figure figcaption {
+  margin: 0.5rem;
+  font-size: 0.7rem;
+}
+
+.paragraph {
+  /* border: 2px solid blue; */
+  justify-content: center;
+  width: 86%;
+  height: 20vh;
+  display: flex;
+  margin: auto;
+  text-align: justify;
+  line-height: 1.4rem;
+}
+
+#comics {
+  /* border: 2px dotted red; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem auto 1rem;
+  padding-top: 2rem;
+  font-family: "Lobster", sans-serif;
+  color: red;
+  width: 86%;
+}
+
+.info {
+  /* border: 2px dashed blue; */
+  display: flex;
+  margin: 0.8rem auto;
+  width: 86%;
+  list-style-position: inside;
+}
+@media only screen and (max-width: 600px) {
+  .info {
+    background-color: lightblue;
+  }
+}
+
+#unordered {
+  line-height: 2rem;
+}
+
+.footer {
+  text-align: center;
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
+
+/* .footer a:hover {
+  font-family: "Lobster", sans-serif;
+  background-color: gray;
+  color: rgb(255, 115, 0);
+  text-decoration: none;
+} */
+
+#button {
+  border: 2px solid orange;
+  background-color: black;
+  color: white;
+  width: 18rem;
+  height: 2.5rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#button:hover {
+  border: 2px solid rgb(255, 115, 0);
+  background-color: gray;
+  color: rgb(255, 115, 0);
+  font-family: "Lobster", sans-serif;
+  text-decoration: underline;
+}
+p.footer a {
+  text-decoration: none;
+  color: white;
+}

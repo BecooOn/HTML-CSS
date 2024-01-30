@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background: url(./img/background_image.jpg), no-repeat center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.418);
+  display: flex;
+  justify-content: center;
+  height: 52rem;
+  width: 117rem;
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+.header {
+  text-align: center;
+  /* border: 5px white solid; */
+  height: 8rem;
+}
+.header h1 {
+  margin: auto;
+}
+.header p {
+  margin: auto;
+}
+.form1 {
+  text-align: left;
+  margin: 0px auto;
+  padding: 0px 2.5rem;
+  background-color: rgba(0, 0, 0, 0.644);
+  width: 25rem;
+  height: 44rem;
+  /* border: 3px red solid; */
+}
+.name input {
+  width: 20rem;
+  height: 1.8rem;
+}
+.age input {
+  width: 20rem;
+  height: 1.8rem;
+}
+.email input {
+  width: 20rem;
+  height: 1.8rem;
+}
+.content select {
+  width: 20rem;
+  height: 1.8rem;
+}
+h1 {
+  font-family: "Bowlby One SC", sans-serif;
+  font-variant: small-caps;
+  font-size: 45px;
+}
+.flix {
+  font-family: "Bowlby One SC", sans-serif;
+  font-variant: small-caps;
+}
+.movie-type-gender-bloke {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+input:checked {
+  accent-color: red;
+}
+.sartlar p {
+  overflow: scroll;
+  height: 55px;
+  overflow-x: hidden;
+}
+.sartlar input {
+  margin-left: 100px;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 11px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+.submit {
+  text-align: center;
+  margin: auto;
+  /* border: 2px white solid; */
+}
+.submit input {
+  width: 140px;
+  height: 40px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 22px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  position: absolute;
+  right: 56rem;
+  bottom: 48px;
+}
+.submit input:hover {
+  color: red;
+  background-color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.feedback textarea {
+  width: 320px;
+  height: 95px;
+}

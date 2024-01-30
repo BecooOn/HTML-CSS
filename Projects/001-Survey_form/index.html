@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./img/netflix.png" type="image/x-icon" />
+    <title>Netflix</title>
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="column">
+            <div class="header">
+                <header>
+                    <h1>Net<span style="color: red;">Flix</span></h1>
+                    <p>Thank you for signing up at Netflix. Tell us more about yourself.</p>
+                </header>
+            </div>
+            <main>
+                <div class="form1">
+                    <form action="result.html" method="get">
+                        <!-- Name -->
+                        <div class="name">
+                            <br>
+                            <label for="name">Name</label>
+                            <br>
+                            <input type="text" id="name" name="Name" required>
+                        </div>
+                        <br><br>
+                        <!-- Age -->
+                        <div class="age">
+                            <label for="age">Age</label>
+                            <br>
+                            <input type="number" id="age" name="Age" required>
+                        </div>
+                        <br><br>
+                        <!-- Email -->
+                        <div class="email">
+                            <label for="email">Email</label>
+                            <br>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <br><br>
+                        <!-- Content type -->
+                        <div class="content">
+                            <label for="Content-type">Content type</label>
+                            <br>
+                            <select name="Content-type" id="content">
+                                <option value="Series">Series</option>
+                                <option value="Originals">Originals</option>
+                                <option value="TV shows">TV shows</option>
+                                <option value="movies">movies</option>
+                                <option value="Documentaries">Documentaries</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="movie-type-gender-bloke">
+                            <!-- Movie type -->
+                            <div class="movie">
+                                <span>Movie type</span>
+                                <br>
+                                <input type="checkbox" id="Comedy" name="Movie_type_1" value="Comedy">
+                                <label for="Comedy">Comedy</label>
+                                <br>
+                                <input type="checkbox" id="action" name="Movie_type_2" value="Action">
+                                <label for="action">Action</label>
+                                <br>
+                                <input type="checkbox" id="Romance" name="Movie_type_3" value="Romance">
+                                <label for="Romance">Romance</label><br />
+                                <br />
+                            </div>
+                            <!-- Gender -->
+                            <div class="gender">
+                                <label for="gender">Gender</label><br />
+                                <input type="radio" name="Gender" id="male" value="Male" />
+                                <label for="male">Male</label>
+                                <br />
+                                <input type="radio" name="Gender" id="female" value="Female" />
+                                <label for="female">Female</label>
+                                <br />
+                                <input type="radio" name="Gender" id="other" value="Other" />
+                                <label for="other">Other</label>
+                            </div>
+                        </div>
+                        <!-- Feed back -->
+                        <div class="feedback">
+                            <label for="feedback">Feed back</label><br />
+                            <textarea name="Comment" id="feedback" cols="37" rows="6"
+                                placeholder="Any comment"></textarea>
+                            <br>
+                        </div><br>
+                        <div class="sartlar">
+                            <label for="sartlar" style="font-size: 13px;">Sözleşmeyi okudum, kabul ediyorum.</label>
+                            <input type="checkbox" name="sartlar" id="sartlar" required>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugiat ipsum beatae? Dolores blanditiis magni harum quasi vel tempora fuga adipisci enim illum consequatur maxime porro, voluptate perspiciatis sit? Inventore at cupiditate consectetur quis voluptate distinctio quisquam culpa. Laudantium fuga, fugiat reprehenderit id laborum dolor ratione quibusdam vel illo quos perferendis. Repellendus assumenda delectus sed, aperiam officia quas mollitia, et iusto harum rerum iure neque rem velit hic corporis. Sint laboriosam necessitatibus quae modi eaque illum error, deleniti corrupti voluptatibus nesciunt cupiditate tenetur aperiam alias animi vitae, recusandae excepturi ea voluptatum culpa aliquam, beatae sit cumque maiores. Facilis, corporis nobis. </p>
+                        </div>
+                        <!-- Submit -->
+                        <div class="submit">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+        </div>
+        </main>
+    </div>
+</body>
+</html>

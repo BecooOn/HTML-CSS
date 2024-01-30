@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(to right, blue, orange);
+}
+
+/* .intro {
+
+} */
+
+.head {
+  font-family: "Rubik Burned", system-ui;
+  font-size: 6rem;
+  text-align: center;
+  margin: 2rem 2rem 2rem 0;
+  color: bisque;
+}
+.head_img {
+  /* border: 1px solid red; */
+  width: 4rem;
+  height: auto;
+  filter: sepia(100%);
+}
+
+.horizon {
+  border: 3px solid orange;
+}
+
+.container {
+  /* border: 3px solid blue; */
+  padding: 3rem 8rem;
+}
+
+/* @keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
+img {
+  width: 25rem;
+  height: 20rem;
+  border-radius: 25% 7% 25% 7%;
+  transition: 0.5s;
+}
+img:hover {
+  border-radius: 7% 25% 7% 25%;
+  cursor: pointer;
+  transition: 0.5s;
+  /* width: 30%;
+  height: 15%; */
+  /*animation: spin 2s; linear infinite */
+}
+
+/* img:hover::after {
+
+} */
+
+.div {
+  /* border: 2px solid red; */
+  box-shadow: 20px 20px 50px 10px pink inset;
+  display: flex;
+  width: 95%;
+  height: 10%;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+.div:hover {
+  box-shadow: 2px 2px 20px pink;
+  transform: scale(1.1);
+  transition: transform 0.6s ease;
+}
+
+.div h3 {
+  font-size: 3rem;
+  text-align: center;
+  color: bisque;
+}
+.div p {
+  font-size: 1.5rem;
+  text-indent: 1.5rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  color: white;
+  text-align: justify;
+  column-count: 2;
+  column-rule-style: solid;
+}
+
+.button {
+  /* border: 2px dotted red; */
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.button button {
+  width: 6rem;
+  height: 3rem;
+  border-radius: 30% 10% 30% 10%;
+  cursor: pointer;
+  font-family: sans-serif;
+  transition: 0.5s;
+
+}
+
+.button button:hover {
+  border-radius: 10% 30% 10% 30%;
+  color: azure;
+  background-image: linear-gradient(
+    to right,
+    rgb(132, 0, 255),
+    rgb(255, 153, 0)
+  );
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 0.7rem;
+  transition: 0.5s;
+
+}
+
+.footer {
+  font-family: "Rubik Burned", system-ui;
+  font-size: 3rem;
+  margin: 2rem;
+  text-align: center;
+  color: white;
+}

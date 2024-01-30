@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  /* font-family: "DynaPuff", system-ui; */
+}
+
+/*! *******HEADER******* */
+/*! ******************* */
+
+header {
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  padding: 1rem;
+}
+
+header a img {
+  width: 60px;
+}
+
+header .sign-in {
+  float: right;
+  padding-top: 2rem;
+  padding-right: 0.5rem;
+}
+
+header .sign-in a {
+  color: #920101;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+header .sign-in a:hover {
+  /* text-decoration: underline; */
+  border-bottom: 2px solid #920101;
+}
+
+/*! *******NAV-BAR****** */
+/*! ******************* */
+
+nav.sticky {
+  background-color: #fad961;
+  background-image: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
+  padding: 2rem;
+  text-align: center;
+}
+
+nav.sticky a {
+  color: black;
+  font-family: "DynaPuff", system-ui;
+  text-decoration: none;
+  margin-right: 0.8rem;
+}
+
+nav.sticky a:hover {
+  color: white;
+  outline: 3px dotted purple;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/*! ********NAV-BANNER******* */
+/*! ************************ */
+
+nav.banner {
+  position: relative;
+  line-height: 3rem;
+  margin-top: 2rem;
+}
+
+nav.banner img {
+  /* border: 2px solid red; */
+  /* box-shadow: 0 4px 4px black; */
+  width: 49.8%;
+  max-height: calc(100vh - 202px);
+  transform: skew(20deg, -5deg);
+  padding: 3.5rem;
+}
+
+nav.banner img#flip {
+  /* border: 3px solid red; */
+  -webkit-transform: scaleX(-1);
+  opacity: 0.8;
+  transform: scaleX(-1) skew(20deg, -5deg);
+  /* position: static;
+  z-index: -2; */
+  /* filter: blur(1px); */
+}
+
+nav.banner .hero {
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  /* top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); */
+  /*! absolute ile mutlak ortalama */
+}
+nav.banner .hero1 {
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  /* top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); */
+  /*! absolute ile mutlak ortalama */
+}
+nav.banner .hero1 h2 {
+  color: white;
+  font-size: 3rem;
+  text-shadow: 0 3px 4px black;
+  opacity: 0.8;
+  transform: skew(20deg, -5deg);
+}
+
+nav.banner .hero1 h3 {
+  color: red;
+  font-size: 1rem;
+  text-shadow: 0 3px 4px black;
+  opacity: 0.8;
+  transform: skew(20deg, -5deg);
+}
+nav.banner .hero1 button {
+  padding: 0.7rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-weight: 700;
+  background-color: rgb(200, 150, 158);
+  opacity: 0.8;
+  transform: skew(20deg, -5deg);
+}
+
+nav.banner .hero1 button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+nav.banner .hero h2 {
+  color: white;
+  font-size: 3rem;
+  text-shadow: 0 3px 4px black;
+  transform: skew(20deg, -5deg);
+}
+
+nav.banner .hero h3 {
+  color: red;
+  font-size: 1rem;
+  text-shadow: 0 3px 4px black;
+  transform: skew(20deg, -5deg);
+}
+nav.banner .hero button {
+  padding: 0.7rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-weight: 700;
+  background-color: rgb(200, 150, 158);
+  transform: skew(20deg, -5deg);
+}
+
+nav.banner .hero button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+/*! MAIN */
+/*! ------------------------ */
+
+main {
+  padding: 2rem;
+  text-align: justify;
+}
+
+/*! slack */
+/*! ------------------------ */
+
+.slack {
+  font-size: 2rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #8d3c3c;
+  width: 3rem;
+  height: 3rem;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.slack:hover {
+  cursor: pointer;
+  outline: 2px solid #920101;
+  outline-offset: 3px;
+  color: black;
+}
+
+main .main {
+  /* border: 2px solid red; */
+  margin-top: -7rem;
+  position: relative;
+  width: 96vw;
+  height: 100vh;
+  text-align: center;
+}
+main .main img {
+  width: 80%;
+  height: 96%;
+}
+
+main .main div.on_write {
+  /* border: 2px solid red; */
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+  padding: 0.5rem;
+  overflow: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  top: 6.5rem;
+  left: 22rem;
+  right: 22.5rem;
+  bottom: 14rem;
+  border-radius: 1.5rem 1.5rem;
+}
+::-webkit-scrollbar {
+  display: none;
+}
