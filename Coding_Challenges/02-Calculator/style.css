@@ -1,52 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Shade&family=Rubik+Burned&family=Sixtyfour&display=swap");
-
 /* font-family: 'Bebas Neue', sans-serif;
 font-family: 'Bungee Shade', sans-serif;
 font-family: 'Rubik Burned', system-ui;
 font-family: 'Sixtyfour', sans-serif; */
-
 html {
   font-size: 10px;
 }
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-.container {
+body {
+  font-family: "Times New Roman", serif;
+  background-color: rgba(0, 255, 136, 0.367);
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  /* align-items: center; */
+}
+/* .container {
   background-color: rgba(0, 255, 136, 0.367);
   height: 100vh;
   padding: 2rem;
-}
-.head {
-  /* background-color: aqua; */
-  border-bottom: 2px solid black;
-  /* display: flex;
-  justify-content: space-around;
-  align-items: center; */
-  font-family: "Sixtyfour", sans-serif;
-  text-align: center;
-  width: 80%;
-  height: 8%;
-  margin: 2.5rem auto;
-  padding: 1rem;
-  font-size: 6rem;
-  line-height: 1rem;
-}
-
+} */
 /* -------------------------------------------- */
 /*                     maın                     */
 /* -------------------------------------------- */
+.head {
+  text-align: center;
+  color: #000000;
+  border-bottom: 6px solid #000000;
+  font-size: 40px;
+  font-family: "Sixtyfour", sans-serif;
+  margin: 40px auto;
+  /* box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.452); */
+}
 
 .center {
-  background-color: rgb(0, 0, 0);
-  box-shadow: 15px 15px 30px rgb(59, 41, 7);
-  width: 24%;
-  height: 80%;
-  margin: auto;
-  padding: 2.5rem;
-  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  align-items: center;
+  /* border: 6px solid #ffc400; */
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.452);
 }
 .display {
   background-color: brown;
@@ -55,25 +54,21 @@ html {
   flex-wrap: wrap;
   justify-content: end;
   align-items: center;
-  width: 96%;
-  height: 14%;
-  margin: 1.2rem auto;
-  padding: 0.5rem;
+  width: 30rem;
+  height: 8rem;
+  margin: 12px auto;
+  padding: 5px;
   font-family: "Sixtyfour", sans-serif;
-  font-size: 3rem;
+  font-size: 30px;
   text-align: end;
+  /* box-shadow: 20px 20px 5px rgba(91, 191, 204, 0.281); */
 }
-
 .line {
-  /* border: 2px solid red; */
-  border-radius: 1rem;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: center;
-  width: 100%;
-  height: 15%;
-  margin: 1.5rem 0;
+  justify-content: center;
 }
 .button {
   background-color: #494848b5;
@@ -81,10 +76,10 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 9rem;
-  height: 9rem;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
-  margin: 5px;
+  margin: 8px;
   font-family: "Bebas Neue", sans-serif;
   font-size: 3.2rem;
   cursor: pointer;
@@ -96,12 +91,6 @@ html {
   box-shadow: 3px 3px 6px aqua;
   font-size: 5rem;
 }
-.button4,
-.button8,
-.button12,
-.button16 {
-  background-color: rgb(255, 30, 0);
-}
 .button4:hover,
 .button8:hover,
 .button12:hover,
@@ -110,6 +99,12 @@ html {
   transform: scale(1.1);
   font-size: 5rem;
 }
+.button4,
+.button8,
+.button12,
+.button16 {
+  background-color: rgb(255, 30, 0);
+}
 
 .button1,
 .button2,
@@ -117,33 +112,14 @@ html {
   background-color: #b1afafb5;
 }
 .button17 {
-  width: 18rem;
+  width: 135px;
   border-radius: 5rem;
 }
-
-@media only screen and (max-width: 1200px) {
-  .head {
-    font-size: 2rem;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .center {
-    width: 40%;
-    font-size: 2rem;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .center {
-    width: 60%;
-    font-size: 2rem;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .center {
-    width: 80%;
-    font-size: 2rem;
-  }
-}
+/* .paragraf {
+  text-align: center;
+  padding: 10px;
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+} */
