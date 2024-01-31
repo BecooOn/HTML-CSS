@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Shade&family=Rubik+Burned&family=Sixtyfour&display=swap");
+
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Bungee Shade', sans-serif;
+font-family: 'Rubik Burned', system-ui;
+font-family: 'Sixtyfour', sans-serif; */
+
+html {
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: rgba(0, 255, 136, 0.367);
+  height: 100vh;
+  padding: 2rem;
+}
+.head {
+  /* background-color: aqua; */
+  border-bottom: 2px solid black;
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center; */
+  font-family: "Sixtyfour", sans-serif;
+  text-align: center;
+  width: 80%;
+  height: 8%;
+  margin: 2.5rem auto;
+  padding: 1rem;
+  font-size: 6rem;
+  line-height: 1rem;
+}
+
+/* -------------------------------------------- */
+/*                     maın                     */
+/* -------------------------------------------- */
+
+.center {
+  background-color: rgb(0, 0, 0);
+  box-shadow: 15px 15px 30px rgb(59, 41, 7);
+  width: 24%;
+  height: 80%;
+  margin: auto;
+  padding: 2.5rem;
+  border-radius: 3rem;
+}
+.display {
+  background-color: brown;
+  border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-items: center;
+  width: 96%;
+  height: 14%;
+  margin: 1.2rem auto;
+  padding: 0.5rem;
+  font-family: "Sixtyfour", sans-serif;
+  font-size: 3rem;
+  text-align: end;
+}
+
+.line {
+  /* border: 2px solid red; */
+  border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  margin: 1.5rem 0;
+}
+.button {
+  background-color: #494848b5;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  margin: 5px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3.2rem;
+  cursor: pointer;
+  color: white;
+}
+.button:hover {
+  background-color: #1a1a1aeb;
+  transform: scale(1.1);
+  box-shadow: 3px 3px 6px aqua;
+  font-size: 5rem;
+}
+.button4,
+.button8,
+.button12,
+.button16 {
+  background-color: rgb(255, 30, 0);
+}
+.button4:hover,
+.button8:hover,
+.button12:hover,
+.button16:hover {
+  background-color: rgb(255, 30, 0);
+  transform: scale(1.1);
+  font-size: 5rem;
+}
+
+.button1,
+.button2,
+.button3 {
+  background-color: #b1afafb5;
+}
+.button17 {
+  width: 18rem;
+  border-radius: 5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .head {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .center {
+    width: 40%;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .center {
+    width: 60%;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .center {
+    width: 80%;
+    font-size: 2rem;
+  }
+}
