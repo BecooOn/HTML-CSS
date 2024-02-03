@@ -1,0 +1,113 @@
+/* -------------------------------------------- */
+/*                    CONTACT                   */
+/* -------------------------------------------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif; /* Varsayılan bir font belirle */
+}
+
+.container1 {
+  background-color: rgb(172, 125, 38);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form {
+  background: rgba(63, 79, 111, 0.575);
+  box-shadow: 10px 10px 20px rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%; /* Genişliği artır */
+  max-width: 600px; /* Maksimum genişlik belirle */
+  height: 85%;
+  padding: 20px; /* Daha fazla iç içe geçme */
+  margin: auto;
+  color: white;
+  border-radius: 10px;
+}
+
+label {
+  font-size: 1.3rem; /* Font boyutunu belirle */
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px black;
+}
+input {
+  height: 40px;
+}
+.submit {
+  /* border:2px solid #a04545; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  margin:1rem auto;
+}
+input[type="submit"] {
+  background-color: #1e9baea5;
+  box-shadow: 5px 5px 10px black;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+input[type="submit"]:hover {
+  background-color: #a04545;
+  font-size: 1.1rem;
+  box-shadow: 10px 10px 20px black;
+}
+
+@media screen and (max-width: 800px) {
+  .form {
+    width: 90%; /* Daha küçük ekranlarda genişliği azalt */
+  }
+}
+
+/* -------------------------------------------- */
+/*                    RESULT                    */
+/* -------------------------------------------- */
+
+#results {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  /* display: flex;
+    justify-content: center;
+    align-items: start; */
+  flex-direction: column;
+  background-color: rgb(180, 149, 109);
+  width: 30%;
+  height: 30vh;
+  margin: auto;
+  padding: 2rem;
+  font-size: 2rem;
+}
+a {
+  display: block;
+  text-align: center;
+  margin: 5rem;
+  font-size: 2rem;
+  color: rgb(83, 129, 113);
+}
