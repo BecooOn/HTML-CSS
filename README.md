@@ -15,6 +15,7 @@
 
 #1 https://becooon.github.io/HTML-CSS/Coding_Challenges/01-Stanlee-Web-Page/
 #2 https://becooon.github.io/HTML-CSS/Coding_Challenges/02-Calculator/
+#3 https://becooon.github.io/HTML-CSS/Coding_Challenges/03-Media-Query/
 
 # ---------------------------------------------------------------------------------------------------
 
