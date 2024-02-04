@@ -5,21 +5,26 @@
   margin: 0;
   padding: 0;
 }
-body {
-  background-color: rgba(250, 235, 215, 0.853);
-  overflow: hidden;
+
+.big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
+  margin: 5rem auto;
 }
 
-.big,
 .container {
   /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   width: 80%;
   max-width: 1200px;
-  margin: -5rem auto 5rem;
+  margin: 5rem auto;
 }
 
 .img {
@@ -52,6 +57,7 @@ h2 button,
   border-radius: 0.8rem;
   font-family: var(--ff-pt);
   border: none;
+  white-space: nowrap;
 }
 
 .storage {
@@ -68,16 +74,18 @@ h2 button,
 
 .add {
   display: flex;
+  /* flex-direction: column;  */
   align-items: center;
   justify-content: space-between;
 }
 
 .add button {
   width: 30%;
-  height: 3rem;
+  height: 1.8rem;
   border-radius: 10px;
-  background-color: rgb(218, 187, 146);
+  background-color: rgb(146, 218, 160);
   border: none;
+  margin-bottom: 1rem;
 }
 
 .add p {
@@ -94,14 +102,13 @@ button:hover {
 /* -------------------------------------------- */
 /*                 Media Queries                */
 /* -------------------------------------------- */
-
 @media screen and (max-width: 1200px) {
   .container {
     flex-direction: column;
   }
 
   .img {
-    order: 0;
+    margin-top: 2.5rem;
   }
 
   .img img {
@@ -111,7 +118,7 @@ button:hover {
 
 @media screen and (max-width: 768px) {
   .container {
-    margin: 4rem auto 2rem;
+    margin: 2rem auto;
   }
 
   .img img,
@@ -121,44 +128,12 @@ button:hover {
 
   .header,
   .paragraph,
-  .storage button {
-    max-width: none;
-  }
-  .add {
-    flex-direction: column;
-    line-height: 3rem;
+  .storage button,
+  .add button {
+    max-width: none; /* Remove max-width for better responsiveness */
   }
   .add button {
-    width: 100%;
-    height: 1.6rem;
-  }
-}
-@media screen and (max-width: 300px) {
-  .container {
-    margin: 2rem auto 5rem;
-  }
-
-  .img img {
-    width: 100%;
-  }
-
-  .text {
-    width: 100%;
-    height: 80vh;
-  }
-
-  .header,
-  .paragraph,
-  .storage button {
-    max-width: none;
-    .add {
-      flex-direction: column;
-      line-height: 3rem;
-      padding-bottom: 4rem;
-    }
-    .add button {
-      width: 100%;
-      height: 1.6rem;
-    }
+    width: 6rem;
+    margin-right: 1rem;
   }
 }
