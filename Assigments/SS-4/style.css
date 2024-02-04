@@ -83,7 +83,7 @@ h2 button,
   width: 30%;
   height: 1.8rem;
   border-radius: 10px;
-  background-color: rgb(146, 218, 160);
+  background-color: rgb(218, 187, 146);
   border: none;
   margin-bottom: 1rem;
 }
@@ -96,7 +96,7 @@ h2 button,
 
 button:hover {
   cursor: pointer;
-  background-color: rgb(196, 161, 117);
+  background-color: rgb(146, 218, 160);
 }
 
 /* -------------------------------------------- */
