@@ -1,6 +1,6 @@
 # This is my HTML-CSS area. And, There are my studies in here.
 
-# --------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
 
 ### Assigments
 
@@ -26,3 +26,9 @@
 #1 https://becooon.github.io/HTML-CSS/Projects/001-Survey_form/
 #2 https://becooon.github.io/HTML-CSS/Projects/002-Parallax_Page/
 #3 https://becooon.github.io/HTML-CSS/Projects/003-Home-Furnishing-Page/
+
+---------------------------------------------------------------------------------------------------
+
+### Free-Studies
+
+#1 https://becooon.github.io/HTML-CSS/Free-studies/01-chess/
