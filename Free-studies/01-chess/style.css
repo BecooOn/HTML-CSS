@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(./img/bg.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  /* display: flex; */
+  /* border: 5px solid rgb(0, 34, 255); */
+  /* background-color: aqua; */
+  width: 50%;
+  height: 100%;
+  /* display: grid; */
+  /* place-items: center; */
+  margin: auto;
+  padding: 3rem;
+  /* grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr); */
+}
+.cover {
+  box-shadow: 3rem 3rem 5rem rgb(52, 25, 25);
+  /* border: 2px solid fuchsia; */
+  /* background-color: aqua; */
+  width: 100%;
+  height: 100%;
+  display: grid;
+  /* place-items: center; */
+  margin: auto;
+  /* padding: 3rem; */
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+.chess {
+  border: 2px solid rgb(222, 88, 88);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  flex: 1 1;
+}
+.char18,
+.char20,
+.char22,
+.char24,
+.char25,
+.char27,
+.char29,
+.char31,
+.char34,
+.char36,
+.char38,
+.char40,
+.char41,
+.char43,
+.char45,
+.char47 {
+  color: #443f3d;
+}
+.char17,
+.char19,
+.char21,
+.char23,
+.char26,
+.char28,
+.char30,
+.char32,
+.char33,
+.char35,
+.char37,
+.char39,
+.char42,
+.char44,
+.char46,
+.char48 {
+  color: white;
+}
+
+.container .chess:nth-child(1),
+.container .chess:nth-child(3),
+.container .chess:nth-child(5),
+.container .chess:nth-child(7),
+.container .chess:nth-child(10),
+.container .chess:nth-child(12),
+.container .chess:nth-child(14),
+.container .chess:nth-child(16),
+.container .chess:nth-child(17),
+.container .chess:nth-child(19),
+.container .chess:nth-child(21),
+.container .chess:nth-child(23),
+.container .chess:nth-child(26),
+.container .chess:nth-child(28),
+.container .chess:nth-child(30),
+.container .chess:nth-child(32),
+.container .chess:nth-child(33),
+.container .chess:nth-child(35),
+.container .chess:nth-child(37),
+.container .chess:nth-child(39),
+.container .chess:nth-child(42),
+.container .chess:nth-child(44),
+.container .chess:nth-child(46),
+.container .chess:nth-child(48),
+.container .chess:nth-child(49),
+.container .chess:nth-child(51),
+.container .chess:nth-child(53),
+.container .chess:nth-child(55),
+.container .chess:nth-child(58),
+.container .chess:nth-child(60),
+.container .chess:nth-child(62),
+.container .chess:nth-child(64) {
+  background-color: #ffffff;
+}
+.container .chess:nth-child(2),
+.container .chess:nth-child(4),
+.container .chess:nth-child(6),
+.container .chess:nth-child(8),
+.container .chess:nth-child(9),
+.container .chess:nth-child(11),
+.container .chess:nth-child(13),
+.container .chess:nth-child(15),
+.container .chess:nth-child(18),
+.container .chess:nth-child(20),
+.container .chess:nth-child(22),
+.container .chess:nth-child(24),
+.container .chess:nth-child(25),
+.container .chess:nth-child(27),
+.container .chess:nth-child(29),
+.container .chess:nth-child(31),
+.container .chess:nth-child(34),
+.container .chess:nth-child(36),
+.container .chess:nth-child(38),
+.container .chess:nth-child(40),
+.container .chess:nth-child(41),
+.container .chess:nth-child(43),
+.container .chess:nth-child(45),
+.container .chess:nth-child(47),
+.container .chess:nth-child(50),
+.container .chess:nth-child(52),
+.container .chess:nth-child(54),
+.container .chess:nth-child(56),
+.container .chess:nth-child(57),
+.container .chess:nth-child(59),
+.container .chess:nth-child(61),
+.container .chess:nth-child(63) {
+  background-color: #292626ca;
+}
+
+@media screen and (max-width: 1268px) {
+  .container {
+    width: 90%;
+  }
+
+  .chess {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  .cover {
+    height: 70%;
+  }
+  .chess {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 566px) {
+  .container {
+    width: 90%;
+  }
+  .cover {
+    height: 60%;
+  }
+
+  .chess {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    width: 90%;
+  }
+  .cover {
+    height: 50%;
+  }
+  .chess {
+    font-size: 1rem;
+  }
+}
