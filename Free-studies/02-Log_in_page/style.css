@@ -115,6 +115,9 @@ input {
   border-radius: 8px;
   /* font-family: "Protest Riot", sans-serif; */
 }
+::placeholder {
+  color: rgba(0, 0, 0, 0.377);
+}
 .forgot {
   justify-content: end;
 }
@@ -128,6 +131,7 @@ input {
   height: 50%;
   border-radius: 8px;
   font-family: "Protest Riot", sans-serif;
+  color: rgb(73, 78, 73);
   font-size: 1.1rem;
   cursor: pointer;
   /* color: hsla(0, 43%, 22%, 0.727);
@@ -135,7 +139,8 @@ input {
 }
 .submit button:active {
   transform: scale(0.95);
-  background-color: rgba(255, 0, 0, 0.086);
+  background-color: rgba(255, 0, 0, 0.527);
+  color: white;
 }
 .sign_up {
   justify-content: end;
@@ -145,7 +150,7 @@ input {
   color: rgba(169, 176, 170, 0.856);
 }
 .google button {
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   width: 50%;
   height: 50%;
   border-radius: 1rem;
@@ -166,7 +171,8 @@ input {
 }
 .google button:active {
   transform: scale(0.95);
-  background-color: rgba(255, 0, 0, 0.086);
+  background-color: rgba(255, 0, 0, 0.527);
+  color: white;
 }
 /* -------------------------------------------- */
 /*                    FOOTER                    */
@@ -188,7 +194,11 @@ input {
   transform: scale(0.95);
 }
 .footer p > a:hover {
-  color: darkgreen;
+  color: rgb(100, 0, 0);
+
+}
+.footer p > a:hover i {
+  color: rgb(100, 0, 0);
 }
 .p1 i {
   color: #4c6c51;
@@ -199,7 +209,7 @@ input {
 }
 .p3 i {
   font-size: 1.4rem;
-  color: #455147;
+  color: #4e534f;
 }
 .p4 i {
   font-size: 1.4rem;
