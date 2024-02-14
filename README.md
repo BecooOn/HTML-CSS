@@ -28,13 +28,16 @@
 #2 https://becooon.github.io/HTML-CSS/Projects/002-Parallax_Page/
 #3 https://becooon.github.io/HTML-CSS/Projects/003-Home-Furnishing-Page/
 
-------------------------------------------------------------------------------------------------------
-
-### Repetitions
-
-#1 https://becooon.github.io/HTML-CSS/Repetitions/01-animation/
+# ---------------------------------------------------------------------------------------------------
 
 ### Free-Studies
 
 #1 https://becooon.github.io/HTML-CSS/Free-studies/01-chess/
 #2 https://becooon.github.io/HTML-CSS/Free-studies/02-Log_in_page/
+
+# ---------------------------------------------------------------------------------------------------
+
+### Repetitions
+
+#1 https://becooon.github.io/HTML-CSS/Repetitions/01-animation/
+
