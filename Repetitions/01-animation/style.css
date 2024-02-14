@@ -10,7 +10,7 @@ body {
   padding: 2rem;
 }
 .bg_image {
-  background-image: url(../img/Img_1.png);
+  background-image: url(./img/Img_1.png);
   width: 70%;
   height: 100%;
   margin: auto;
@@ -20,7 +20,7 @@ body {
   overflow: hidden;
 }
 .ground {
-  background-image: url(../img/Img_02.png);
+  background-image: url(./img/Img_02.png);
   height: 17.7%;
   width: 100000%;
   position: absolute;
