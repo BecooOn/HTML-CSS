@@ -9,6 +9,8 @@ body {
   background-image: url(./img/doga.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   overflow: hidden;
   /* -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -50,7 +52,7 @@ body {
 .cloud {
   /* border: 2px solid red; */
   position: absolute;
-  width: 50%;
+  width: 70%;
   top: 30%;
   left: 0;
   padding-left: 6rem;
@@ -65,6 +67,11 @@ body {
 .img2 {
   /* filter: drop-shadow(10px 7px 10px rgb(177, 41, 41)); */
   width: 10rem;
+  /* height: 4rem; */
+}
+.img3 {
+  /* filter: drop-shadow(10px 7px 10px rgb(177, 41, 41)); */
+  width: 15rem;
   /* height: 4rem; */
 }
 .inner1 {
@@ -247,8 +254,9 @@ body {
     height: 100vh;
   } */
   .cloud {
-    width: 100vw;
-    top: 10%;
+    width: 100%;
+    top: 1%;
+    left: 0;
   }
   .img1 {
     width: 50px;
@@ -257,16 +265,8 @@ body {
     width: 50px;
   }
 }
-/* @media screen and (max-witdh: 860px) {
-  .cloud{
-    top:10%;
-    width: 100%;
-
+@media screen and (max-witdh: 480px) {
+  .container1 {
+    left: 1%;
   }
-  .img1{
-    width: 50px;
-  }
-  .img2{
-    width: 50px;
-  }
-} */
+}
