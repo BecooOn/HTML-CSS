@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>&#129297;Sözleşme</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center">
+      ABC Tasarım Programı Kurulum ve Satış Sözleşmesi
+    </h1>
+    <form action="result.html" method="get">
+      <fieldset class="indent">
+        <legend><b>Sözleşme Onayı</b></legend>
+        <input type="checkbox" id="check1" />
+        <label for="check1"
+          >Aşağıdaki bilgilerin doğruluğunu kabul ediyorum ve sözleşmeyi
+          onaylıyorum</label
+        ><br />
+        <input type="submit" value="Formu Kaydet" />
+        <input type="reset" value="Formu Temizle" />
+      </fieldset>
+
+      <fieldset>
+        <legend><b>Kişisel Bilgiler</b></legend>
+        <div class="indent">
+          <label for="input1">Form Güvenlik ID</label>
+          <input id="input1" type="text" placeholder="asdfgh" disabled /><br />
+
+          <label for="input2">Ad</label>
+          <input type="text" name="Ad" id="input2" /><br />
+
+          <label for="input3">Soyad</label>
+          <input type="text" id="input3" /><br />
+
+          <label for="input4">Yaş</label>
+          <input type="number" name="Yaş" id="input4" /><br />
+
+          <label for="input5">Mail Adresi</label>
+          <input type="email" name="Mail" id="input5" /><br />
+          <label for="input6">Fotoğraf Ekle</label>
+          <input
+            type="file"
+            name="Seçilen_Fotoğraf"
+            id="input6"
+            placeholder="Fotoğraf şeçiniz"
+          />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend><b>Diğer Bilgiler</b></legend>
+        <div>
+          <div>
+            <h3 class="indent1">Buradaki Alanlar Mesleki Deneyimi Kapsar</h3>
+          </div>
+
+          <label for="d_enter">Sektöre Giriş Tarihi</label>
+          <input type="date" name="Sektöre Giriş Tarihi" id="d_enter" /><br />
+
+          <div class="experiences">
+            <div class="div1">
+              <p>Sektör Deneyimi</p>
+            </div>
+            <div class="div2">
+              <input type="radio" name="Sektör Deneyimi" id="experience" />
+              <label for="experience">1-5 yıl</label><br />
+
+              <input type="radio" name="Sektör Deneyimi" id="experience1" />
+              <label for="experience1">6-10 yıl</label><br />
+
+              <input type="radio" name="Sektör Deneyimi" id="experience2" />
+              <label for="experience2">11-15 yıl</label><br />
+
+              <input type="radio" name="Sektör Deneyimi" id="experience3" />
+              <label for="experience3">15-üzeri</label><br />
+            </div>
+          </div>
+          <div class="experiences">
+            <div class="div3">
+              <label for="liste">Programlama Dilleri</label>
+            </div>
+            <div class="div2">
+              <select name="Liste" id="liste" size="5" multiple>
+                <option value="C">C</option>
+                <option value="C#">C#</option>
+                <option value="C++">C++</option>
+                <option value="PHP">PHP</option>
+                <option value="Java">Java</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <div>
+        <fieldset>
+          <legend><b>Sözleşme Kopyası</b></legend>
+          <label for="copy"></label>
+          <textarea name="Sözleşme Kopyası" id="copy" rows="10px" cols="45px">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptatibus dolor et consectetur alias saepe molestias nihil inventore quas soluta nisi dolore cupiditate enim eligendi veritatis eius nemo, ipsa animi. Iure earum nemo debitis qui dolores voluptatem architecto exercitationem odit, optio vitae veritatis adipisci hic id eveniet totam esse animi ullam reiciendis quis dicta vel provident? Ipsum et quod id odit odio, omnis dolore maxime commodi pariatur quia incidunt nihil ad velit! Molestias in quasi perferendis! Dolore iusto amet saepe.</textarea
+          >
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+          <legend><b>Mail Listesi</b></legend>
+          <label for="attend">Mail Listesine Katılmak <b>İstiyorum</b></label>
+          <input type="radio" name="attend" id="attend1" /><br />
+
+          <label for="attend2"
+            >Mail Listesine Katılmak <b><u>İstemiyorum</u></b></label
+          >
+          <input type="radio" name="attend" id="attend2" />
+        </fieldset>
+      </div>
+    </form>
+  </body>
+</html>

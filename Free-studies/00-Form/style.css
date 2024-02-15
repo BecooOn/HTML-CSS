@@ -1,0 +1,79 @@
+/* .sinif label{
+  display: inline-block;
+  width: 200px;} 
+  Tek halde .sinif classına sahip fieldset altındaki tüm labelleri tek hamle aynı hizaya getirir. Buranın altında yazılı olduğu birçok class ve id yerine birkaç satır kod ile hepsi yapılabilir.*/
+
+.indent {
+  margin: 3px;
+}
+
+#check1 {
+  margin-top: 3px;
+  margin-bottom: 8px;
+}
+#input1 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+#input2 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 99px;
+}
+
+#input3 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 79px;
+}
+#input4 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 96px;
+}
+#input5 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 43px;
+}
+#input6 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 31px;
+}
+
+.indent1 {
+  padding-left: 56px;
+  /* border: 1px solid red; */
+}
+
+#d_enter {
+  margin-left: 200px;
+}
+
+.experiences {
+  display: flex;
+  /* border: 1px solid red; */
+}
+
+.div1 {
+  width: 36%;
+  margin: 1px;
+  /* border: 1px solid aqua; */
+}
+.div2 {
+  width: 50%;
+  margin: 1px;
+  /* border: 1px solid aqua; */
+}
+.div3 {
+  width: 36.2%;
+  margin: 1px;
+  padding: 38px 0px;
+  /* border: 1px solid aqua; */
+}
+
+#copy {
+  resize: none;
+}
