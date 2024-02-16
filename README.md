@@ -11,7 +11,7 @@
 #4 https://becooon.github.io/HTML-CSS/Assigments/SS-4/
 #5 https://becooon.github.io/HTML-CSS/Assigments/SS-5/
 #6 https://becooon.github.io/HTML-CSS/Assigments/SS-6/
-#7 https://becooon.github.io/HTML-CSS/Assigments/SS-7/
+#7 https://becooon.github.io/HTML-CSS/Assigments/SS-7/installation
 
 # ---------------------------------------------------------------------------------------------------
 
