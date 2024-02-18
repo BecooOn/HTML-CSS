@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Protest+Riot&display=swap");
+.anta-regular {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.protest-riot-regular {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar-brand img {
+  background-color: rgba(0, 128, 0, 0.577);
+  width: 50px;
+  border-radius: 50% !important;
+  transition: all 0.5s;
+}
+.navbar-brand img:hover {
+  transform: scale(1.2);
+}
+/* -------------------------------------------- */
+/*                    banner                    */
+/* -------------------------------------------- */
+.banner {
+  background: url(./img/purse.jpg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  /* padding-top: 20%;
+  padding-bottom: 20%; */
+  color: rgb(255, 132, 0);
+  height: 100vh;
+}
+.container button {
+  color: rgb(79, 0, 128);
+}
+.container button:hover {
+  /* background-color: transparent; */
+  color: red;
+  transform: scale(0.95);
+}
+/* -------------------------------------------- */
+/*                   services                   */
+/* -------------------------------------------- */
+.container .row .services {
+  font-size: 4rem;
+}
+.services-img img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: rgba(0, 128, 0, 0.577);
+}
+.services-circ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+  background-color: #ffc107;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* -------------------------------------------- */
+/*                     about                    */
+/* -------------------------------------------- */
+.aboutus {
+  /* border: 5px solid fuchsia; */
+  width: 100%;
+  margin: auto;
+}
+.aboutus img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* -------------------------------------------- */
+/*                     team                     */
+/* -------------------------------------------- */
+.staff-img {
+  /* border: 2px solid red; */
+  width: 80%;
+  border-radius: 50%;
+  margin: auto;
+}
+.staff-img img:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.staff-img img {
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  outline: 8px solid gray;
+  outline-offset: 8px;
+  /* transition: all 0.5s; */
+}
+.staff-img a {
+  /* border: 2px solid rgb(133, 11, 11); */
+  background-color: black;
+  display: inline-block;
+  margin: auto;
+  padding: 0.7rem;
+  /* text-align: center; */
+  /* transition: all 0.3s; */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  /* position: relative; */
+  /* vertical-align: middle; */
+}
+.staff-img a i {
+  /* border: 2px solid orange; */
+  /* position: absolute;
+  top: 50%;
+  right: 50%; */
+  /* margin: auto; */
+}
+.staff-img a:hover {
+  /* border-radius: 50%; */
+  box-shadow: 0 0 10px rgb(255, 166, 0);
+  transform: scale(0.95);
+}
+.border-link {
+  /* border: 2px solid red; */
+  background-color: #212529;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  transition: all 0.5s;
+}
+.border-link a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+}
+.border-link:hover {
+  transform: scale(0.9);
+  box-shadow: 0 0 10px yellow;
+}
+.border-link i {
+  border-radius: 50%;
+}
+/* -------------------------------------------- */
+/*                    source                    */
+/* -------------------------------------------- */
+.source {
+  /* border: 2px solid purple; */
+  width: 100%;
+  margin: auto;
+}
+.source div {
+  width: 80%;
+  margin: auto;
+}
+.source div img {
+  /* border: 2px solid red; */
+  max-width: 200px;
+  /* width: 100%; */
+}
+
+/* -------------------------------------------- */
+/*                    contact                   */
+/* -------------------------------------------- */
+#contact{
+  background-image: url(./img/freelance-work.png);
+  width: 1005;
+  object-fit: cover;
+}
+#contact input::placeholder{
+  font-size: 1.1rem;
+}
