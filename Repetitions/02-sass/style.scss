@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//********************************************/
+//* Variable Declaration
+//********************************************/
+
+$bgColor:pink;
+$fontFamily:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$fontSize:1.2rem;
+$fontColor:white;
+$navBgColor:#30A7C3;
+$myBorder:2px solid brown;
+$bannerBgColor:hotpink;
+$buttonColor:#902b2b;
+
+body{
+    background-color: $bgColor;
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    color: $fontColor;
+}
+
+// **********  Header *************
+
+header{
+    background-color: $navBgColor;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    img{
+        width: 80px;
+        border: $myBorder;
+    }
+
+    ul{
+        list-style-type: none;
+
+        li{
+            display: inline-block;
+            padding: 0.5rem;
+            &:hover{
+                text-decoration: underline;
+            }
+
+            a{
+                color: $fontColor;
+                text-decoration: none;
+
+            }
+        }
+    }
+}
+
+// **********  Banner *************
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    line-height: 2rem;
+    background-color: $bannerBgColor;
+    aside{
+        button{
+            background-color: $buttonColor;
+            padding: 0.5rem;
+            border: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+            margin-left: 0.5rem;
+            color: $fontColor;
+            &:hover{
+                background-color: #b15252;
+                cursor: pointer;
+                transform: scale(0.97);
+            }
+        }
+
+    }
+    img{
+        width: 30%;
+        max-width: 400px;
+        min-width: 250px;
+    }
+}
+
+//*******  CARDS  *********/
+
+//*****************
+//! @MIXIN
+//*****************
+
+@mixin myBox($backColor,$color) {
+    background-color: $backColor;
+    width: 25%;
+    height: 15rem;
+    border-radius: 1rem;
+    color: $color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cards{
+    display: flex;
+    color: black;
+    gap: 1rem;
+    padding: 1rem;
+
+    .card1{
+        @include myBox(blue, yellow);
+    }
+    .card2{
+        @include myBox(red, white);
+
+    }
+    .card3{
+        @include myBox(green, orange);
+
+    }
+    .card4{
+        @include myBox(magenta, yellow);
+
+    }
+}
+
+
+//*******  ARTICLES *********/
+
+//*****************
+//! @EXTEND
+//*****************
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.articles{
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+
+    .article1{
+        background-color: gray;
+        width: 50%;
+        height: 10rem;
+        border-radius: 10px;
+        border: $myBorder;
+        @extend .flex;
+
+    }
+    .article2{
+        @extend .article1;
+        background-color: purple;
+    }
+}
+
+//*******  FOOTER *********/
+//! FOR LOOP
+//*************************
+
+//***********************************************
+//! IF-ELSE
+//************************************************
+
+footer{
+    $dark:99;
+    p{
+        @if  $dark == 1 {
+            background-color: gray;
+            
+        } @else if $dark == 2 {
+            background-color: blue;
+        } @else {
+            background-color: red;
+        }
+    }
+    .social-icons{
+        display: flex;
+        height: 10rem;
+        $textColor: #990000, #55004e, #0fa8a1, #dcacf1, #64c217;
+
+        @for $i from 1 through 5 {
+            .social#{$i}{
+                width: 20%;
+                background-color: lighten(blue, $i * 5);
+                font-size: 1rem * $i ;
+                color: nth($textColor, $i );
+            }
+        }
+
+    }
+}
